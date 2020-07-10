@@ -1,5 +1,7 @@
 ﻿# Windows Service Check - .Net Framework 4.7.2 - Windows Service Application  
-A basic service created to check periodically if a specific windows service is running and restart it if necessary. 
+A service created to check periodically if a specific windows service is running and restart it if necessary. 
+- The service is configured to check every 5 seconds if the other service is running. This value is in mileseconds and can be modified in the code.
+- The service is configured to save an operations log to the Base Directory \ Logs. It should be disabled if necessary.
 
 ## Installing a Windows Service
 1. First download / clone and compile the project.
