@@ -16,7 +16,7 @@ Example: InstallUtil.exe C:\Users\MyUser\source\repos\WindowsServiceCheck\Window
 ## Initializing the service.
 - By default the service will use the local system account. 
   - If necessary, use a different account
-  https://i.imgur.com/TumrrJQ.png
+  [![Local System Account](https://i.imgur.com/TumrrJQ.png "Local System Account")](https://i.imgur.com/TumrrJQ.png "Local System Account")
   
 
 ## Technical Requirements
