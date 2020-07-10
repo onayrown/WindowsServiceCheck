@@ -2,6 +2,7 @@
 A service created to check periodically if a specific windows service is running and restart it if necessary. 
 - The service is configured to check every 5 seconds if the other service is running. This value is in mileseconds and can be modified in the code.
 - The service is configured to save an operations log to the Base Directory \ Logs. It should be disabled if necessary.
+- The service used during the initial tests was Windows Update, in which the name is "wuauserv". Change this in the code to monitor another service.
 
 ## Installing a Windows Service
 1. First download / clone and compile the project.
