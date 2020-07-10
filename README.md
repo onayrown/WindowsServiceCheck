@@ -22,3 +22,5 @@ Example: InstallUtil.exe C:\Users\MyUser\source\repos\WindowsServiceCheck\Window
 ## Technical Requirements
  - [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral)
  - [Visual Studio 2019](https://visualstudio.microsoft.com/pt-br/downloads/)
+ - [Windows Operating System](https://www.microsoft.com/software-download/windows10)
+ 
