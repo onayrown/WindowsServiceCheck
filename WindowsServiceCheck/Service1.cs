@@ -22,14 +22,14 @@ namespace WindowsServiceCheck
         }
         protected override void OnStart(string[] args)
         {
-            WriteToFile("Service is started at " + DateTime.Now);
+            WriteToFile("Service 10.0.1 is started at " + DateTime.Now);
             timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
             timer.Interval = 5000; //number in milisecinds  
             timer.Enabled = true;
         }
         protected override void OnStop()
         {
-            WriteToFile("Service is stopped at " + DateTime.Now);
+            WriteToFile("Service 10.0.1 is stopped at " + DateTime.Now);
         }
         private void OnElapsedTime(object source, ElapsedEventArgs e)
         {
@@ -39,7 +39,7 @@ namespace WindowsServiceCheck
                     WriteToFile(StartService(_serviceName));
 
             }
-            WriteToFile("Service is recall at " + DateTime.Now);
+            WriteToFile("Service 10.0.1 is recall at " + DateTime.Now);
         }
         public void WriteToFile(string message)
         {
